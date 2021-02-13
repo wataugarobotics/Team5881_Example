@@ -25,9 +25,8 @@ import org.firstinspires.ftc.robotcore.external.tfod.TFObjectDetector;
 
 import java.util.List;
 
-//@Disabled
 public class HardwareAndMethods {
-    //Variables Necessary for Computer Vision, they will be different each year
+    /* Variables Necessary for Computer Vision, they will be different each year */
     private static final String TFOD_MODEL_ASSET = "UltimateGoal.tflite";
     private static final String LABEL_FIRST_ELEMENT = "Quad"; //
     private static final String LABEL_SECOND_ELEMENT = "Single";
@@ -80,9 +79,7 @@ public class HardwareAndMethods {
     float hsvValuesSensor[] = {0F, 0F, 0F}; //Color sensor Hue Saturation Value;; one for each ColorSensor
     final double COLOR_SCALE_FACTOR = 255;
 
-/**************************************************************************************************/
-
-    HardwareMap hwMap = null;
+    //HardwareMap hwMap = null;
     private ElapsedTime runtime = new ElapsedTime();
 
     public HardwareAndMethods(){
@@ -94,8 +91,7 @@ public class HardwareAndMethods {
         parameters.loggingTag          = "IMU";
         //parameters.accelerationIntegrationAlgorithm = new JustLoggingAccelerationIntegrator();
     }
-    public void init(HardwareMap ahwMap) {
-        hwMap = ahwMap;
+    public void init(HardwareMap hwMap) {
 
         // Initialize the hardware variables | name = hwMap.get(Type.class "deviceName");
 
@@ -182,47 +178,7 @@ public class HardwareAndMethods {
 
 
     //TODO:CV Stuff, maybe move to another class?
-    public void initCompuVis() {
-        /*
-        *  A combination of the initVuforia() and initTfod() methods from the Tensorflow tutorial
-        *  TODO: include link
-        *  TODO: verify that it... works
-        */
 
-        /* ** initVuforia() ** */
-        VuforiaLocalizer.Parameters vuforiaParameters = new VuforiaLocalizer.Parameters();
-        vuforiaParameters.vuforiaLicenseKey = VUFORIA_KEY;
-        vuforiaParameters.cameraDirection = VuforiaLocalizer.CameraDirection.BACK;
-        //Change cameraDirection if you use the 'selfie' camera
-        vuforia = ClassFactory.getInstance().createVuforia(vuforiaParameters); //Instantiate the Vuforia engine
-        /* **************** */
-
-        /* ** initTfod() ** */
-        int tfodMonitorViewId = hwMap.appContext.getResources().getIdentifier(
-                "tfodMonitorViewId", "id", hwMap.appContext.getPackageName());
-        TFObjectDetector.Parameters tfodParameters = new TFObjectDetector.Parameters(tfodMonitorViewId);
-        tfodParameters.minResultConfidence = 0.8f;
-        tfod = ClassFactory.getInstance().createTFObjectDetector(tfodParameters, vuforia);
-        tfod.loadModelFromAsset(TFOD_MODEL_ASSET, LABEL_FIRST_ELEMENT, LABEL_SECOND_ELEMENT);
-        /* **************** */
-    }
-
-    public void runTfod(){ //TODO: Return List<Recognition>
-        List<Recognition> updatedRecognitions = tfod.getUpdatedRecognitions();
-        if (updatedRecognitions != null) {
-
-            // step through the list of recognitions and display boundary info.
-            //int i = 0;
-            /*for (Recognition recognition : updatedRecognitions) {
-                String label = recognition.getLabel();
-                float left = recognition.getLeft();
-                float top = recognition.getTop();
-                float right = recognition.getRight();
-                float bottom = recognition.getBottom();
-                float confidence = recognition.getConfidence();
-            }*/
-        }
-    }
 
 }
 

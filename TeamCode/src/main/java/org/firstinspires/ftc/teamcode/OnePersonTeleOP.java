@@ -12,23 +12,22 @@ import com.qualcomm.robotcore.eventloop.opmode.TeleOp;
 //import org.firstinspires.ftc.robotcore.external.navigation.VuforiaLocalizer.CameraDirection;
 //import java.util.List;
 
-@TeleOp(name="1p TeleOP", group="Summer Development 2020")
-//@Disabled
+@TeleOp(name="1p TeleOP", group="Team 5881 Example Code")
 public class OnePersonTeleOP extends OpMode {
-    //Create HardwareAndMethods instance called robot
+    /* Create HardwareAndMethods instance called robot */
     private HardwareAndMethods robot = new HardwareAndMethods();
-    //private ConceptTensorFlowObjectDetection tflow = new ConceptTensorFlowObjectDetection();
 
-    // Declares variables
+    /* Declare Variables for toggle switches */
     private boolean stickPressed = false;
-
+    // add more for each new toggle
+    /* ************************************* */
     @Override
     public void init() {
-        // Initialize the hardware variables
-        robot.init(hardwareMap);
+        /* Initialize the hardware variables */
+        robot.init(hardwareMap); //Passes the hardware map that you set in the app to robot
 
-        // Tell the driver that initialization is complete.
-        telemetry.addData("Status", "Initialized");
+        /*Tell the driver that initialization is complete. */
+        telemetry.addData("Status:", "Initialized");
     }
 
 
@@ -37,10 +36,9 @@ public class OnePersonTeleOP extends OpMode {
     }
     @Override
     public void start(){ //Code to run ONCE when the driver hits PLAY
-        //robot.initVuforia();
-        //robot.initTfod();
+        //robot.initCompuVis();
         //if (robot.tfod != null) {
-        //    robot.tfod.activate();}
+        //    robot.tfod.activate();} //TODO:delete?
     }
 
 
@@ -48,9 +46,11 @@ public class OnePersonTeleOP extends OpMode {
     public void loop() { //Code to run REPEATEDLY after the driver hits PLAY but before they hit STOP
 
 
-        //Speed mod toggle switch
+        /* Speed mod toggle switch
+         * See wiki page on toggle switches //TODO:toggleWikiPage
+         */
         if(gamepad1.right_stick_button && !stickPressed){
-            stickPressed = true; //prevents code from toggling on/off many times every time you press a button, as this is run in a very fast loop
+            stickPressed = true;
             if(robot.speedMod == 1f) {
                 robot.speedMod = 2f;
             }else{
@@ -60,7 +60,7 @@ public class OnePersonTeleOP extends OpMode {
             stickPressed = false;
         }
 
-        // Mecanum uses the left stick to drive in the x,y directions, and the right stick to turn
+        /* Mecanum uses the left stick to drive in the x,y directions, and the right stick to rotate */
         robot.mecanum(-gamepad1.left_stick_x, gamepad1.left_stick_y, -gamepad1.right_stick_x);
 
     }
