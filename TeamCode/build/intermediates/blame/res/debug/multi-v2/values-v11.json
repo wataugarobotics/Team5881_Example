@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/kyle/Robotics/Robotics-Club/Team5881_2020-2021/TeamCode/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v11/values-v11.xml",
+            "map": [
+                {
+                    "source": "/home/kyle/.gradle/caches/transforms-2/files-2.1/ab1b63f6ed6e72da77e2c80b64bd45b8/jetified-RobotCore-6.0.1/res/values-v11/values-v11.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "4",
+                        "endColumns": "12",
+                        "endOffsets": "187"
+                    }
+                }
+            ]
+        }
+    ]
+}
