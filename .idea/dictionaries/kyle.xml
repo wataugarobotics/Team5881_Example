@@ -4,6 +4,8 @@
       <w>mecanum</w>
       <w>odometry</w>
       <w>tele</w>
+      <w>tensorflow</w>
+      <w>tflite</w>
       <w>tflow</w>
       <w>tfod</w>
       <w>vuforia</w>

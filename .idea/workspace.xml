@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bfe17edf-c50d-4a1f-a5c5-788db5410ca4" name="Default Changelist" comment="" />
+    <list default="true" id="bfe17edf-c50d-4a1f-a5c5-788db5410ca4" name="Default Changelist" comment="Commented and streamlined, mostly in HardwareAndMethods.java">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/Secret.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/kyle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/kyle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/FtcRobotController/FtcRobotController.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/FtcRobotController/FtcRobotController.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/TeamCode/TeamCode.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/TeamCode/TeamCode.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/EasyOpenCVExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/HardwareAndMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/HardwareAndMethods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/InternalCamera1Example.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/RingDetermination.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,6 +31,17 @@
       </state>
     </system>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1oOi9hDvclwHKB8oZ1qFvnsNskq" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -28,6 +50,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/Android/Sdk" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -108,11 +131,23 @@
     </task>
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Commented and streamlined, mostly in HardwareAndMethods.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commented and streamlined, mostly in HardwareAndMethods.java" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="236" y="131" width="950" height="530" key="#PSD" timestamp="1613187021295">
       <screen x="67" y="25" width="1299" height="743" />
     </state>
     <state x="236" y="131" width="950" height="530" key="#PSD/67.25.1299.743@67.25.1299.743" timestamp="1613187021295" />
+    <state x="449" y="146" width="524" height="501" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1613189159000">
+      <screen x="67" y="25" width="1299" height="743" />
+    </state>
+    <state x="449" y="146" width="524" height="501" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/67.25.1299.743@67.25.1299.743" timestamp="1613189159000" />
+    <state x="311" y="25" width="801" height="743" key="CommitChangelistDialog2" timestamp="1613235155233">
+      <screen x="67" y="25" width="1299" height="743" />
+    </state>
+    <state x="311" y="25" width="801" height="743" key="CommitChangelistDialog2/67.25.1299.743@67.25.1299.743" timestamp="1613235155233" />
     <state x="449" y="149" width="524" height="506" key="extract.method.dialog" timestamp="1613164805633">
       <screen x="67" y="25" width="1299" height="743" />
     </state>
