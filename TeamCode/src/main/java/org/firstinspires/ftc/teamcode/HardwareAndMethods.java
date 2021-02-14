@@ -26,18 +26,6 @@ import org.firstinspires.ftc.robotcore.external.tfod.TFObjectDetector;
 import java.util.List;
 
 public class HardwareAndMethods {
-    /* Variables Necessary for Computer Vision, they will be different each year */
-    private static final String TFOD_MODEL_ASSET = "UltimateGoal.tflite";
-    private static final String LABEL_FIRST_ELEMENT = "Quad"; //
-    private static final String LABEL_SECOND_ELEMENT = "Single";
-    private static final String VUFORIA_KEY = Secret.vKey; /*you'll have to get your own developer key,
-     It should look like the one below, store it as a String */
-    //"ATwu5Uf/////AAABmW6EkCcqK08LuKL127zX3owl9yKuVGftG+fZJh1x5DAia5zv6SAip+KJqd+P9DUA1NhLaqowDt2iraVhn4mt8C2ZJXuQd5XZiQ9Ihx6s1dvI0W+/bn0YBP2rry4keEQC2C2NVmfAtXsV+sqYVGfkHUkQ1n00L/ndbQKPE0JMWFo+sX5683ght4wyaTjjKbjSxL8gNVoCaP9ndedm+tsPdfKcSj8urqhgSOtNlAk4cTzVx1buSG33tNKy4a+JuULWYFbRngrEqPd/6MzIXFAxpMvfu0dcpCFal+VYPX/upaL4GkEEV2gfJ4xtSEqIBgnIFM8WtWwC51P2yhtGjDoqXChw0MvLDjcCTxqYT3MIjFE1";
-
-    //vuforia is the variable we will use to store our instance of the Vuforia localization engine
-    private VuforiaLocalizer vuforia;
-    //tfod is the variable we will use to store our instance of the TensorFlow Object Detection Engine
-    public TFObjectDetector tfod;
 
 /*******************************************************************************************/
     /*
@@ -93,7 +81,7 @@ public class HardwareAndMethods {
     }
     public void init(HardwareMap hwMap) {
 
-        // Initialize the hardware variables | name = hwMap.get(Type.class "deviceName");
+        /* Initialize the hardware variables | name = hwMap.get(Type.class "deviceName"); */ //TODO:Wiki-fy
 
         //Motors; declared above; TODO:"Initialize variables here?"
         leftFront  = hwMap.get(DcMotor.class, "leftFront");
@@ -133,7 +121,6 @@ public class HardwareAndMethods {
 
 
     public void mecanum(float x, float y, float r){
-        //TODO: Create wiki page for mecanum
         double leftFrontPower = Range.clip(y + x + r, -1.0, 1.0) / speedMod;
         double leftBackPower = Range.clip(y - x + r, -1.0, 1.0) / speedMod;
         double rightFrontPower = Range.clip(y - x - r, -1.0, 1.0) / speedMod;
@@ -155,29 +142,28 @@ public class HardwareAndMethods {
         return (input - inputMin) / (inputMax - inputMin) * (outputMax - outputMin) + outputMin;
     }
 
+
+    /* For documentation on these methods, see:
+     * https://github.com/wataugarobotics/Team5881_Example/wiki/HardwareAndMethods-Class#getter-methods
+     */
     public float getImuAngle(){
         Orientation orientation = imu.getAngularOrientation(AxesReference.INTRINSIC, AxesOrder.ZYX, AngleUnit.DEGREES);
         return orientation.firstAngle;
     }
 
-    public String getOdometry(){
-        /*
-        For telemetry purposes, returns a String "x: ___, y: ___"
-        where the value after "x: " is the distance that the sideways encoder has travelled, and
-        the value after "y: " is the distance that the forward encoder has travelled.
-        */
+    public String getOdometryString(){
         return "x: " + sidewaysEncoder.getCurrentPosition() + ", y: " + forwardEncoder.getCurrentPosition();
     }
-
-    public boolean wheelsAreBusy(){
-        /*
-        * Returns true if any of the wheels are spinning
-        */
-        return leftFront.isBusy() || leftBack.isBusy() || rightFront.isBusy() || rightBack.isBusy();
+    public int getOdometryX(){
+        return sidewaysEncoder.getCurrentPosition();
+    }
+    public int getOdometryY(){
+        return forwardEncoder.getCurrentPosition();
     }
 
-
-    //TODO:CV Stuff, maybe move to another class?
+    public boolean getWheelsAreBusy(){
+        return leftFront.isBusy() || leftBack.isBusy() || rightFront.isBusy() || rightBack.isBusy();
+    }
 
 
 }

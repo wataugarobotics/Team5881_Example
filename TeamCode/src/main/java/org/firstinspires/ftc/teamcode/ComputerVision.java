@@ -27,8 +27,7 @@ public class ComputerVision {
     public ComputerVision(){
 
     }
-    public void initCompuVis(HardwareMap ahwMap) {
-        HardwareMap hwMap = ahwMap;
+    public void initCompuVis(HardwareMap hwMap) {
         /*
          *  A combination of the initVuforia() and initTfod() methods from the Tensorflow tutorial
          *  TODO: include link
@@ -52,20 +51,17 @@ public class ComputerVision {
         /* **************** */
     }
 
-    public void runTfod(){ //TODO: Return List<Recognition>
-        List<Recognition> updatedRecognitions = tfod.getUpdatedRecognitions();
-        if (updatedRecognitions != null) {
+    /* Useful properties of tfod.getUpdatedRecognitions()
 
-            // step through the list of recognitions and display boundary info.
-            //int i = 0;
-            /*for (Recognition recognition : updatedRecognitions) {
-                String label = recognition.getLabel();
-                float left = recognition.getLeft();
-                float top = recognition.getTop();
-                float right = recognition.getRight();
-                float bottom = recognition.getBottom();
-                float confidence = recognition.getConfidence();
-            }*/
-        }
+    * String label = getLabel();
+    * float left = getLeft();
+    * float top = getTop();
+    * float right = getRight();
+    * float bottom = getBottom();
+    * float confidence = getConfidence();
+    */
+
+    public List<Recognition> tfodList(){
+        return tfod.getUpdatedRecognitions();
     }
 }
