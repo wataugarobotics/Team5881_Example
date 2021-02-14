@@ -134,11 +134,6 @@ public class HardwareAndMethods {
     }
 
     public float map(float input, float inputMin, float inputMax, float outputMin, float outputMax){
-        /*
-        * Simple method to translate a number from one range to another
-        * Useful for situations using an analog input (perhaps a joystick or trigger) that returns
-        * a value between -1 and 1, and translating that into movement on a larger scale.
-        */
         return (input - inputMin) / (inputMax - inputMin) * (outputMax - outputMin) + outputMin;
     }
 
