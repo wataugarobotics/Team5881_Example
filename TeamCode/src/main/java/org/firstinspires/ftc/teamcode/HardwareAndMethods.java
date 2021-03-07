@@ -83,7 +83,7 @@ public class HardwareAndMethods {
 
         /* Initialize the hardware variables | name = hwMap.get(Type.class "deviceName"); */ //TODO:Wiki-fy
 
-        //Motors; declared above; TODO:"Initialize variables here?"
+        //Motors; declared above;
         leftFront  = hwMap.get(DcMotor.class, "leftFront");
         leftBack = hwMap.get(DcMotor.class, "leftBack");
         rightFront = hwMap.get(DcMotor.class, "rightFront");

@@ -15,8 +15,8 @@ public class ComputerVision {
     private static final String LABEL_FIRST_ELEMENT = "Quad"; //
     private static final String LABEL_SECOND_ELEMENT = "Single";
     private static final String VUFORIA_KEY = Secret.vKey; /* you'll have to get your own developer key,
-     It should look like the one below, store it as a String */
-    //"ATwu5Uf/////AAABmW6EkCcqK08LuKL127zX3owl9yKuVGftG+fZJh1x5DAia5zv6SAip+KJqd+P9DUA1NhLaqowDt2iraVhn4mt8C2ZJXuQd5XZiQ9Ihx6s1dvI0W+/bn0YBP2rry4keEQC2C2NVmfAtXsV+sqYVGfkHUkQ1n00L/ndbQKPE0JMWFo+sX5683ght4wyaTjjKbjSxL8gNVoCaP9ndedm+tsPdfKcSj8urqhgSOtNlAk4cTzVx1buSG33tNKy4a+JuULWYFbRngrEqPd/6MzIXFAxpMvfu0dcpCFal+VYPX/upaL4GkEEV2gfJ4xtSEqIBgnIFM8WtWwC51P2yhtGjDoqXChw0MvLDjcCTxqYT3MIjFE1";
+     It should look somewhat like the one below, store it as a String */
+    //"ATwu5Uf/////ACABmW6ElCcqK0luk8L127zR1owl9yKuVGftG+fZJh1x5DAiaV5z6SAiP+LJQd+P9DcA1NhLaSowDt2iraVhn4mt8C2ZJXuQk5XxiQ9Ihx6s1dvI0W+/bn0YBP2rry4keEQC2C2NVmfAtXsV+sqYVGfkHUkQ1n00L/ndbQKPE0JMWFo+sX5683ght4wyaTjjKbjSxL8gNVoCaP9ndedm+tsPdfKcSj8urqhgSOtNlAk4cTzVx1buSG33tNKy4a+JuULWYFbRngrEqPd/6MzIXFAxpMvfu0dcpCFal+VYPX/upaL4GkEEV2gfJ4xtSEqIBgnIFM8WtWwC51P2yhtGjDoqXCSEqIBgnIFM8WtsdfsMvLDjcCT1qYT3MIjFE1";
 
     //vuforia is the variable we will use to store our instance of the Vuforia localization engine
     private VuforiaLocalizer vuforia;
