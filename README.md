@@ -1,17 +1,5 @@
-# Road Runner Quickstart
 
-An example FTC project using [Road Runner](https://github.com/acmerobotics/road-runner). **Note:** Road Runner is in alpha and many of its APIs are incubating.
+Based on: https://github.com/FIRST-Tech-Challenge/FtcRobotController
+# About
 
-## Installation
-
-For more detailed instructions on getting Road Runner setup in your own project, see the [Road Runner README](https://github.com/acmerobotics/road-runner#core).
-
-1. Download or clone this repo with `git clone https://github.com/acmerobotics/road-runner-quickstart`.
-
-1. Open the project in Android Studio and build `TeamCode` like any other `ftc_app` project.
-
-1. If you have trouble with multidex, enable proguard by changing `useProguard` to `true` in `build.common.gradle`.
-
-## Documentation
-
-Check out the new [online quickstart documentation](https://acme-robotics.gitbook.io/road-runner/quickstart/introduction).
+This guide is intended for teams that use Android Studio as their IDE and program in Java. Our project is structured in a way that's intended to be easily readable and easily built upon. Although FTC's official repository contains lots of great information, it's very general, and doesn't give teams specific examples to get started with. There are also various very specific examples made by other teams, which we may link to or cite in various places throughout this repository, but we just wanted to share the way we structure our project. We also encourage you to modify, restructure, or rewrite any part of our code in your own repository! By no means is our code the "correct" or only way of doing things, and is always an active work-in-progress. We will likely contribute the most code in-between seasons, as we'll have more time to work on the code and make sure it works well and is documented well. If you use this code, please tell us! I ([@12buntu](https://github.com/12buntu)) in particular would love to hear from you, as I have put and intend to continue putting a lot of effort into this repository. You can open up a discussion just to say hi or let me know how you're using this repository and if you encounter any issues or questions. 
