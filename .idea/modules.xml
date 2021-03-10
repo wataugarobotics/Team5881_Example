@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/FtcRobotController/FtcRobotController.iml" filepath="$PROJECT_DIR$/.idea/modules/FtcRobotController/FtcRobotController.iml" group="Team5881_Example/FtcRobotController" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Team5881_Example.iml" filepath="$PROJECT_DIR$/.idea/modules/Team5881_Example.iml" group="Team5881_Example" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/TeamCode/TeamCode.iml" filepath="$PROJECT_DIR$/.idea/modules/TeamCode/TeamCode.iml" group="Team5881_Example/TeamCode" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Team5881_Example.iml" filepath="$PROJECT_DIR$/.idea/modules/Team5881_Example.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/FtcRobotController/Team5881_Example.FtcRobotController.iml" filepath="$PROJECT_DIR$/.idea/modules/FtcRobotController/Team5881_Example.FtcRobotController.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/TeamCode/Team5881_Example.TeamCode.iml" filepath="$PROJECT_DIR$/.idea/modules/TeamCode/Team5881_Example.TeamCode.iml" />
     </modules>
   </component>
 </project>

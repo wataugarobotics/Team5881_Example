@@ -16,34 +16,194 @@
         <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </expand>
-    <select />
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:SDK" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bfe17edf-c50d-4a1f-a5c5-788db5410ca4" name="Default Changelist" comment="Delete build folder">
+    <list default="true" id="bfe17edf-c50d-4a1f-a5c5-788db5410ca4" name="Default Changelist" comment="Fixed problems caused by SDK update and added Roadrunner stuff">
+      <change afterPath="$PROJECT_DIR$/.github/CONTRIBUTING.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.github/PULL_REQUEST_TEMPLATE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FtcRobotController/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FtcRobotController/src/main/assets/RoverRuckus.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FtcRobotController/src/main/assets/RoverRuckus.tflite" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FtcRobotController/src/main/assets/RoverRuckus.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FtcRobotController/src/main/assets/Skystone.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FtcRobotController/src/main/assets/Skystone.tflite" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FtcRobotController/src/main/assets/Skystone.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/ConceptVuforiaSkyStoneNavigation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/ConceptVuforiaSkyStoneNavigationWebcam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/SensorREVColorDistance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FtcRobotController/src/main/res/drawable-hdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FtcRobotController/src/main/res/drawable-mdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FtcRobotController/src/main/res/drawable-xhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FtcRobotController/src/main/res/drawable-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FtcRobotController/src/main/res/values-sw600dp/dimens.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FtcRobotController/src/main/res/values-sw720dp-land/dimens.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FtcRobotController/src/main/res/values-w820dp/dimens.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TeamCode/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TeamCode/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/drive/DriveConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/drive/SampleMecanumDrive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/drive/SampleTankDrive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/drive/StandardTrackingWheelLocalizer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/drive/opmode/AutomaticFeedforwardTuner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/drive/opmode/BackAndForth.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/drive/opmode/DriveVelocityPIDTuner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/drive/opmode/FollowerPIDTuner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/drive/opmode/LocalizationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/drive/opmode/ManualFeedforwardTuner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/drive/opmode/MaxAngularVeloTuner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/drive/opmode/MaxVelocityTuner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/drive/opmode/MotorDirectionDebugger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/drive/opmode/SplineTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/drive/opmode/StrafeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/drive/opmode/StraightTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/drive/opmode/TrackWidthTuner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/drive/opmode/TrackingWheelForwardOffsetTuner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/drive/opmode/TrackingWheelLateralDistanceTuner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/drive/opmode/TurnTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/util/AssetsTrajectoryManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/util/AxesSigns.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/util/BNO055IMUUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/util/DashboardUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/util/Encoder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/util/LoggingUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/util/LynxModuleUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/util/RegressionUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build.dependencies.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/media/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/tutorial/README.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/Analytics-release.aar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/WirelessP2p-release.aar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle___tensorflow_lite_0_0_0_nightly__aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle___tfod_release__aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_activity_activity_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_activity_activity_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_annotation_annotation_1_1_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_appcompat_appcompat_1_2_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_appcompat_appcompat_1_2_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_appcompat_appcompat_resources_1_2_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_appcompat_appcompat_resources_1_2_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_arch_core_core_common_2_1_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_arch_core_core_runtime_2_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_arch_core_core_runtime_2_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_collection_collection_1_1_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_core_core_1_3_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_core_core_1_3_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_cursoradapter_cursoradapter_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_cursoradapter_cursoradapter_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_customview_customview_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_customview_customview_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_drawerlayout_drawerlayout_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_drawerlayout_drawerlayout_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_fragment_fragment_1_1_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_fragment_fragment_1_1_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_interpolator_interpolator_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_interpolator_interpolator_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_common_2_1_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_2_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_2_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_core_2_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_core_2_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_runtime_2_1_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_runtime_2_1_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_viewmodel_2_1_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_viewmodel_2_1_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_loader_loader_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_loader_loader_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_savedstate_savedstate_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_savedstate_savedstate_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_1_1_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_1_1_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_animated_1_1_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_animated_1_1_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_versionedparcelable_versionedparcelable_1_1_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_versionedparcelable_versionedparcelable_1_1_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_viewpager_viewpager_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_viewpager_viewpager_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_firstinspires_ftc_Blocks_6_0_1_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_firstinspires_ftc_FtcCommon_6_0_1_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_firstinspires_ftc_Hardware_6_0_1_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_firstinspires_ftc_Inspection_6_0_1_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_firstinspires_ftc_OnBotJava_6_0_1_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_firstinspires_ftc_RobotCore_6_0_1_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_firstinspires_ftc_RobotServer_6_0_1_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_openftc_easyopencv_1_4_1_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_openftc_opencv_repackaged_4_1_0_C_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/FtcRobotController/FtcRobotController.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Team5881_Example.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Team5881_Example.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/TeamCode/TeamCode.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FtcRobotController/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/FtcRobotController/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FtcRobotController/build.release.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FtcRobotController/build/.transforms/2d25ecd8efe00a71ef4221fb2903d58b.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FtcRobotController/build/.transforms/2d25ecd8efe00a71ef4221fb2903d58b/classes/classes.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FtcRobotController/build/.transforms/4f06687341a8a0ac2e3443c5a6ed6ed2.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FtcRobotController/build/.transforms/4f06687341a8a0ac2e3443c5a6ed6ed2/classes/classes.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FtcRobotController/build/.transforms/51ed469340bc13adf5584d5b0d0a2193.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FtcRobotController/build/.transforms/51ed469340bc13adf5584d5b0d0a2193/classes/classes.dex" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/FtcRobotController/build/generated/source/buildConfig/debug/com/qualcomm/ftcrobotcontroller/BuildConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/FtcRobotController/build/generated/source/buildConfig/debug/com/qualcomm/ftcrobotcontroller/BuildConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FtcRobotController/build/intermediates/aapt_friendly_merged_manifests/debug/aapt/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/FtcRobotController/build/intermediates/aapt_friendly_merged_manifests/debug/aapt/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FtcRobotController/build/intermediates/aapt_friendly_merged_manifests/debug/aapt/output.json" beforeDir="false" afterPath="$PROJECT_DIR$/FtcRobotController/build/intermediates/aapt_friendly_merged_manifests/debug/aapt/output.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FtcRobotController/build/intermediates/compile_library_classes_jar/debug/classes.jar" beforeDir="false" afterPath="$PROJECT_DIR$/FtcRobotController/build/intermediates/compile_library_classes_jar/debug/classes.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FtcRobotController/build/intermediates/compiled_local_resources/debug/out/drawable-xhdpi-v4_icon_menu.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/FtcRobotController/build/intermediates/compiled_local_resources/debug/out/drawable-xhdpi-v4_icon_menu.png.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FtcRobotController/build/intermediates/compiled_local_resources/debug/out/drawable-xhdpi-v4_icon_robotcontroller.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/FtcRobotController/build/intermediates/compiled_local_resources/debug/out/drawable-xhdpi-v4_icon_robotcontroller.png.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FtcRobotController/build/intermediates/compiled_local_resources/debug/out/layout_activity_ftc_controller.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/FtcRobotController/build/intermediates/compiled_local_resources/debug/out/layout_activity_ftc_controller.xml.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FtcRobotController/build/intermediates/compiled_local_resources/debug/out/menu_ftc_robot_controller.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/FtcRobotController/build/intermediates/compiled_local_resources/debug/out/menu_ftc_robot_controller.xml.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FtcRobotController/build/intermediates/compiled_local_resources/debug/out/raw_gold.wav.flat" beforeDir="false" afterPath="$PROJECT_DIR$/FtcRobotController/build/intermediates/compiled_local_resources/debug/out/raw_gold.wav.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FtcRobotController/build/intermediates/compiled_local_resources/debug/out/raw_silver.wav.flat" beforeDir="false" afterPath="$PROJECT_DIR$/FtcRobotController/build/intermediates/compiled_local_resources/debug/out/raw_silver.wav.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FtcRobotController/build/intermediates/compiled_local_resources/debug/out/xml_app_settings.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/FtcRobotController/build/intermediates/compiled_local_resources/debug/out/xml_app_settings.xml.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FtcRobotController/build/intermediates/compiled_local_resources/debug/out/xml_device_filter.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/FtcRobotController/build/intermediates/compiled_local_resources/debug/out/xml_device_filter.xml.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FtcRobotController/build/intermediates/incremental/debug-mergeNativeLibs/merge-state" beforeDir="false" afterPath="$PROJECT_DIR$/FtcRobotController/build/intermediates/incremental/debug-mergeNativeLibs/merge-state" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FtcRobotController/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/FtcRobotController/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FtcRobotController/build/intermediates/incremental/mergeDebugShaders/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/FtcRobotController/build/intermediates/incremental/mergeDebugShaders/merger.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FtcRobotController/build/intermediates/compile_only_not_namespaced_r_class_jar/debug/R.jar" beforeDir="false" afterPath="$PROJECT_DIR$/FtcRobotController/build/intermediates/compile_only_not_namespaced_r_class_jar/debug/R.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FtcRobotController/build/intermediates/compile_symbol_list/debug/R.txt" beforeDir="false" afterPath="$PROJECT_DIR$/FtcRobotController/build/intermediates/compile_symbol_list/debug/R.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FtcRobotController/build/intermediates/incremental/packageDebugAssets/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/FtcRobotController/build/intermediates/incremental/packageDebugAssets/merger.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FtcRobotController/build/intermediates/incremental/packageDebugResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/FtcRobotController/build/intermediates/incremental/packageDebugResources/compile-file-map.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FtcRobotController/build/intermediates/incremental/packageDebugResources/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/FtcRobotController/build/intermediates/incremental/packageDebugResources/merger.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FtcRobotController/build/intermediates/javac/debug/classes/com/qualcomm/ftcrobotcontroller/BuildConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/FtcRobotController/build/intermediates/javac/debug/classes/com/qualcomm/ftcrobotcontroller/BuildConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FtcRobotController/build/intermediates/javac/debug/classes/org/firstinspires/ftc/robotcontroller/external/samples/ConceptTensorFlowObjectDetection.class" beforeDir="false" afterPath="$PROJECT_DIR$/FtcRobotController/build/intermediates/javac/debug/classes/org/firstinspires/ftc/robotcontroller/external/samples/ConceptTensorFlowObjectDetection.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FtcRobotController/build/intermediates/javac/debug/classes/org/firstinspires/ftc/robotcontroller/external/samples/ConceptTensorFlowObjectDetectionSwitchableCameras.class" beforeDir="false" afterPath="$PROJECT_DIR$/FtcRobotController/build/intermediates/javac/debug/classes/org/firstinspires/ftc/robotcontroller/external/samples/ConceptTensorFlowObjectDetectionSwitchableCameras.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FtcRobotController/build/intermediates/javac/debug/classes/org/firstinspires/ftc/robotcontroller/external/samples/ConceptTensorFlowObjectDetectionWebcam.class" beforeDir="false" afterPath="$PROJECT_DIR$/FtcRobotController/build/intermediates/javac/debug/classes/org/firstinspires/ftc/robotcontroller/external/samples/ConceptTensorFlowObjectDetectionWebcam.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FtcRobotController/build/intermediates/javac/debug/classes/org/firstinspires/ftc/robotcontroller/external/samples/ConceptVuforiaUltimateGoalNavigationWebcam.class" beforeDir="false" afterPath="$PROJECT_DIR$/FtcRobotController/build/intermediates/javac/debug/classes/org/firstinspires/ftc/robotcontroller/external/samples/ConceptVuforiaUltimateGoalNavigationWebcam.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FtcRobotController/build/intermediates/javac/debug/classes/org/firstinspires/ftc/robotcontroller/internal/FtcRobotControllerActivity$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/FtcRobotController/build/intermediates/javac/debug/classes/org/firstinspires/ftc/robotcontroller/internal/FtcRobotControllerActivity$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FtcRobotController/build/intermediates/javac/debug/classes/org/firstinspires/ftc/robotcontroller/internal/FtcRobotControllerActivity$2$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/FtcRobotController/build/intermediates/javac/debug/classes/org/firstinspires/ftc/robotcontroller/internal/FtcRobotControllerActivity$2$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FtcRobotController/build/intermediates/javac/debug/classes/org/firstinspires/ftc/robotcontroller/internal/FtcRobotControllerActivity$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/FtcRobotController/build/intermediates/javac/debug/classes/org/firstinspires/ftc/robotcontroller/internal/FtcRobotControllerActivity$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FtcRobotController/build/intermediates/javac/debug/classes/org/firstinspires/ftc/robotcontroller/internal/FtcRobotControllerActivity$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/FtcRobotController/build/intermediates/javac/debug/classes/org/firstinspires/ftc/robotcontroller/internal/FtcRobotControllerActivity$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FtcRobotController/build/intermediates/javac/debug/classes/org/firstinspires/ftc/robotcontroller/internal/FtcRobotControllerActivity$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/FtcRobotController/build/intermediates/javac/debug/classes/org/firstinspires/ftc/robotcontroller/internal/FtcRobotControllerActivity$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FtcRobotController/build/intermediates/javac/debug/classes/org/firstinspires/ftc/robotcontroller/internal/FtcRobotControllerActivity$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/FtcRobotController/build/intermediates/javac/debug/classes/org/firstinspires/ftc/robotcontroller/internal/FtcRobotControllerActivity$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FtcRobotController/build/intermediates/javac/debug/classes/org/firstinspires/ftc/robotcontroller/internal/FtcRobotControllerActivity$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/FtcRobotController/build/intermediates/javac/debug/classes/org/firstinspires/ftc/robotcontroller/internal/FtcRobotControllerActivity$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FtcRobotController/build/intermediates/javac/debug/classes/org/firstinspires/ftc/robotcontroller/internal/FtcRobotControllerActivity$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/FtcRobotController/build/intermediates/javac/debug/classes/org/firstinspires/ftc/robotcontroller/internal/FtcRobotControllerActivity$7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FtcRobotController/build/intermediates/javac/debug/classes/org/firstinspires/ftc/robotcontroller/internal/FtcRobotControllerActivity$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/FtcRobotController/build/intermediates/javac/debug/classes/org/firstinspires/ftc/robotcontroller/internal/FtcRobotControllerActivity$8.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FtcRobotController/build/intermediates/javac/debug/classes/org/firstinspires/ftc/robotcontroller/internal/FtcRobotControllerActivity$RobotRestarter.class" beforeDir="false" afterPath="$PROJECT_DIR$/FtcRobotController/build/intermediates/javac/debug/classes/org/firstinspires/ftc/robotcontroller/internal/FtcRobotControllerActivity$RobotRestarter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FtcRobotController/build/intermediates/javac/debug/classes/org/firstinspires/ftc/robotcontroller/internal/FtcRobotControllerActivity$SharedPreferencesListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/FtcRobotController/build/intermediates/javac/debug/classes/org/firstinspires/ftc/robotcontroller/internal/FtcRobotControllerActivity$SharedPreferencesListener.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FtcRobotController/build/intermediates/javac/debug/classes/org/firstinspires/ftc/robotcontroller/internal/FtcRobotControllerActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/FtcRobotController/build/intermediates/javac/debug/classes/org/firstinspires/ftc/robotcontroller/internal/FtcRobotControllerActivity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FtcRobotController/build/intermediates/library_assets/debug/out/detect.tflite" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FtcRobotController/build/intermediates/library_manifest/debug/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/FtcRobotController/build/intermediates/library_manifest/debug/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FtcRobotController/build/intermediates/local_only_symbol_list/debug/R-def.txt" beforeDir="false" afterPath="$PROJECT_DIR$/FtcRobotController/build/intermediates/local_only_symbol_list/debug/R-def.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FtcRobotController/build/intermediates/manifest_merge_blame_file/debug/manifest-merger-blame-debug-report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/FtcRobotController/build/intermediates/manifest_merge_blame_file/debug/manifest-merger-blame-debug-report.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FtcRobotController/build/intermediates/merged_manifests/debug/output.json" beforeDir="false" afterPath="$PROJECT_DIR$/FtcRobotController/build/intermediates/merged_manifests/debug/output.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FtcRobotController/build/intermediates/runtime_library_classes_jar/debug/classes.jar" beforeDir="false" afterPath="$PROJECT_DIR$/FtcRobotController/build/intermediates/runtime_library_classes_jar/debug/classes.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FtcRobotController/build/intermediates/symbol_list_with_package_name/debug/package-aware-r.txt" beforeDir="false" afterPath="$PROJECT_DIR$/FtcRobotController/build/intermediates/symbol_list_with_package_name/debug/package-aware-r.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FtcRobotController/build/outputs/logs/manifest-merger-debug-report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/FtcRobotController/build/outputs/logs/manifest-merger-debug-report.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FtcRobotController/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/FtcRobotController/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FtcRobotController/src/main/assets/detect.tflite" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/ConceptTensorFlowObjectDetection.java" beforeDir="false" afterPath="$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/ConceptTensorFlowObjectDetection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/ConceptTensorFlowObjectDetectionSwitchableCameras.java" beforeDir="false" afterPath="$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/ConceptTensorFlowObjectDetectionSwitchableCameras.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/ConceptTensorFlowObjectDetectionWebcam.java" beforeDir="false" afterPath="$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/ConceptTensorFlowObjectDetectionWebcam.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/ConceptVuforiaUltimateGoalNavigationWebcam.java" beforeDir="false" afterPath="$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/ConceptVuforiaUltimateGoalNavigationWebcam.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/internal/FtcRobotControllerActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/internal/FtcRobotControllerActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/build.release.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/src/main/assets/FTC_2016-17.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/src/main/assets/FTC_2016-17.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/src/main/assets/RelicVuMark.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/src/main/assets/RelicVuMark.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/src/main/assets/StonesAndChips.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/src/main/assets/StonesAndChips.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/src/main/assets/UltimateGoal.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/src/main/assets/UltimateGoal.tflite" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/src/main/assets/UltimateGoal.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/src/main/assets/detect.tflite" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/ComputerVision.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/HardwareAndMethods.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/OnePersonTeleOP.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/Secret.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.common.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.common.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/build-attribution/androidGradlePluginAttributionData" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/local.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflow.yml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,36 +216,14 @@
       <ProjectState />
     </projectState>
   </component>
-  <component name="ExternalProjectsManager">
-    <system id="GRADLE">
-      <state>
-        <projects_view />
-      </state>
-    </system>
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-        <option value="Interface" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
-    <option name="PREVIOUS_COMMIT_AUTHORS">
-      <list>
-        <option value="12buntu" />
-      </list>
-    </option>
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$" value="main" />
-      </map>
-    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="SIGN_OFF_COMMIT" value="true" />
   </component>
-  <component name="ProjectId" id="1oOi9hDvclwHKB8oZ1qFvnsNskq" />
+  <component name="ProjectId" id="1pXhybGSuQp3DH7yIrWrEM7WRxn" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -93,15 +231,12 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="android.sdk.path" value="$USER_HOME$/Android/Sdk" />
-    <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.17" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
-    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
@@ -112,7 +247,7 @@
       </method>
     </configuration>
     <configuration name="TeamCode" type="AndroidRunConfigurationType" factoryName="Android App">
-      <module name="TeamCode" />
+      <module name="Team5881_Example.TeamCode" />
       <option name="DEPLOY" value="true" />
       <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
       <option name="DEPLOY_AS_INSTANT" value="false" />
@@ -174,162 +309,19 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="bfe17edf-c50d-4a1f-a5c5-788db5410ca4" name="Default Changelist" comment="" />
-      <created>1613163887069</created>
+      <changelist id="9af2e75f-7213-4de4-badb-c9bfad0f034a" name="Default Changelist" comment="" />
+      <created>1615335597651</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1613163887069</updated>
+      <updated>1615335597651</updated>
     </task>
-    <task id="LOCAL-00001" summary="Commented and streamlined, mostly in HardwareAndMethods.java">
-      <created>1613235763785</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1613235763785</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Created ComputerVision.java&#10;Moved hwMap to a smaller scope and got rid of ahwMap">
-      <created>1613253865568</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1613253865568</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Small tweaks">
-      <created>1613316187420</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1613316187420</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Small tweaks">
-      <created>1613316206647</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1613316206647</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Split HardwareandMethods.java into Robot.java and Sensors.java">
-      <created>1613923488721</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1613923488722</updated>
-    </task>
-    <task id="LOCAL-00006" summary="Delete build folder">
-      <created>1615092563357</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1615092563357</updated>
-    </task>
-    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Commented and streamlined, mostly in HardwareAndMethods.java" />
-    <MESSAGE value="Created ComputerVision.java&#10;Moved hwMap to a smaller scope and got rid of ahwMap" />
-    <MESSAGE value="Small tweaks" />
-    <MESSAGE value="A few changes, added Automted.java&#10;&#10;had to reinstall Android studio because gradle was being weird, might be some weird config stuff with that." />
-    <MESSAGE value="Split HardwareandMethods.java into Robot.java and Sensors.java" />
-    <MESSAGE value="Delete build folder" />
-    <option name="LAST_COMMIT_MESSAGE" value="Delete build folder" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="311" y="43" width="800" height="725" key="#Intentions" timestamp="1613271645985">
-      <screen x="67" y="25" width="1299" height="743" />
-    </state>
-    <state x="311" y="43" width="800" height="725" key="#Intentions/67.25.1299.743@67.25.1299.743" timestamp="1613271645985" />
-    <state x="311" y="58" width="800" height="677" key="#Notifications" timestamp="1613316178356">
-      <screen x="67" y="25" width="1299" height="743" />
-    </state>
-    <state x="311" y="58" width="800" height="677" key="#Notifications/67.25.1299.743@67.25.1299.743" timestamp="1613316178356" />
-    <state x="236" y="131" width="950" height="530" key="#PSD" timestamp="1613187021295">
-      <screen x="67" y="25" width="1299" height="743" />
-    </state>
-    <state x="236" y="131" width="950" height="530" key="#PSD/67.25.1299.743@67.25.1299.743" timestamp="1613187021295" />
-    <state x="407" y="25" width="609" height="743" key="#TeamCode" timestamp="1613778918145">
-      <screen x="67" y="25" width="1299" height="743" />
-    </state>
-    <state x="407" y="25" width="609" height="743" key="#TeamCode/67.25.1299.743@67.25.1299.743" timestamp="1613778918145" />
-    <state x="467" y="268" width="489" height="256" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog" timestamp="1613792415542">
-      <screen x="67" y="25" width="1299" height="743" />
-    </state>
-    <state x="467" y="268" width="489" height="256" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/67.25.1299.743@67.25.1299.743" timestamp="1613792415542" />
-    <state x="524" y="103" width="374" height="587" key="#com.intellij.ide.util.MemberChooser" timestamp="1613343700786">
-      <screen x="67" y="25" width="1299" height="743" />
-    </state>
-    <state x="524" y="103" width="374" height="587" key="#com.intellij.ide.util.MemberChooser/67.25.1299.743@67.25.1299.743" timestamp="1613343700786" />
-    <state x="399" y="134" width="624" height="524" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1613353478722">
-      <screen x="67" y="25" width="1299" height="743" />
-    </state>
-    <state x="399" y="134" width="624" height="524" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/67.25.1299.743@67.25.1299.743" timestamp="1613353478722" />
-    <state x="449" y="146" width="524" height="501" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1613189159000">
-      <screen x="67" y="25" width="1299" height="743" />
-    </state>
-    <state x="449" y="146" width="524" height="501" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/67.25.1299.743@67.25.1299.743" timestamp="1613189159000" />
-    <state x="311" y="25" width="801" height="743" key="CommitChangelistDialog2" timestamp="1613316206537">
-      <screen x="67" y="25" width="1299" height="743" />
-    </state>
-    <state x="311" y="25" width="801" height="743" key="CommitChangelistDialog2/67.25.1299.743@67.25.1299.743" timestamp="1613316206537" />
-    <state x="489" y="140" width="444" height="512" key="FileChooserDialogImpl" timestamp="1613793916849">
-      <screen x="67" y="25" width="1299" height="743" />
-    </state>
-    <state x="489" y="140" width="444" height="512" key="FileChooserDialogImpl/67.25.1299.743@67.25.1299.743" timestamp="1613793916849" />
-    <state width="1257" height="154" key="GridCell.Tab.0.bottom" timestamp="1613345997290">
-      <screen x="67" y="25" width="1299" height="743" />
-    </state>
-    <state width="1257" height="154" key="GridCell.Tab.0.bottom/67.25.1299.743@67.25.1299.743" timestamp="1613345997290" />
-    <state width="1257" height="154" key="GridCell.Tab.0.center" timestamp="1613345997286">
-      <screen x="67" y="25" width="1299" height="743" />
-    </state>
-    <state width="1257" height="154" key="GridCell.Tab.0.center/67.25.1299.743@67.25.1299.743" timestamp="1613345997286" />
-    <state width="1257" height="154" key="GridCell.Tab.0.left" timestamp="1613345997285">
-      <screen x="67" y="25" width="1299" height="743" />
-    </state>
-    <state width="1257" height="154" key="GridCell.Tab.0.left/67.25.1299.743@67.25.1299.743" timestamp="1613345997285" />
-    <state width="1257" height="154" key="GridCell.Tab.0.right" timestamp="1613345997286">
-      <screen x="67" y="25" width="1299" height="743" />
-    </state>
-    <state width="1257" height="154" key="GridCell.Tab.0.right/67.25.1299.743@67.25.1299.743" timestamp="1613345997286" />
-    <state x="67" y="38" width="1258" height="730" key="SettingsEditor" timestamp="1614009717293">
-      <screen x="67" y="25" width="1299" height="743" />
-    </state>
-    <state x="67" y="38" width="1258" height="730" key="SettingsEditor/67.25.1299.743@67.25.1299.743" timestamp="1614009717293" />
-    <state x="311" y="128" width="800" height="536" key="Vcs.Push.Dialog.v2" timestamp="1615092503079">
-      <screen x="67" y="25" width="1299" height="743" />
-    </state>
-    <state x="311" y="128" width="800" height="536" key="Vcs.Push.Dialog.v2/67.25.1299.743@67.25.1299.743" timestamp="1615092503079" />
-    <state x="507" y="311" width="418" height="170" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1613316194039">
-      <screen x="67" y="25" width="1299" height="743" />
-    </state>
-    <state x="507" y="311" width="418" height="170" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/67.25.1299.743@67.25.1299.743" timestamp="1613316194039" />
-    <state x="449" y="149" width="524" height="506" key="extract.method.dialog" timestamp="1613164805633">
-      <screen x="67" y="25" width="1299" height="743" />
-    </state>
-    <state x="449" y="149" width="524" height="506" key="extract.method.dialog/67.25.1299.743@67.25.1299.743" timestamp="1613164805633" />
-    <state x="443" y="178" width="537" height="437" key="git4idea.merge.GitMergeDialog" timestamp="1613236021739">
-      <screen x="67" y="25" width="1299" height="743" />
-    </state>
-    <state x="443" y="178" width="537" height="437" key="git4idea.merge.GitMergeDialog/67.25.1299.743@67.25.1299.743" timestamp="1613236021739" />
-    <state x="380" y="175" key="run.anything.popup" timestamp="1613345393767">
-      <screen x="67" y="25" width="1299" height="743" />
-    </state>
-    <state x="380" y="175" key="run.anything.popup/67.25.1299.743@67.25.1299.743" timestamp="1613345393767" />
-    <state x="379" y="88" width="672" height="678" key="search.everywhere.popup" timestamp="1613344971232">
-      <screen x="67" y="25" width="1299" height="743" />
-    </state>
-    <state x="379" y="88" width="672" height="678" key="search.everywhere.popup/67.25.1299.743@67.25.1299.743" timestamp="1613344971232" />
+    <MESSAGE value="Fixed problems caused by SDK update and added Roadrunner stuff" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed problems caused by SDK update and added Roadrunner stuff" />
   </component>
 </project>

@@ -117,15 +117,20 @@ int attr collapseContentDescription 0x0
 int attr collapseIcon 0x0
 int attr color 0x0
 int attr colorAccent 0x0
+int attr colorAlmostDark 0x0
 int attr colorBackgroundFloating 0x0
 int attr colorButtonNormal 0x0
 int attr colorControlActivated 0x0
 int attr colorControlHighlight 0x0
 int attr colorControlNormal 0x0
 int attr colorError 0x0
+int attr colorMedium 0x0
+int attr colorMediumLight 0x0
+int attr colorMediumMedium 0x0
 int attr colorPrimary 0x0
 int attr colorPrimaryDark 0x0
 int attr colorSwitchThumbNormal 0x0
+int attr colorVeryVeryDark 0x0
 int attr colors 0x0
 int attr commitIcon 0x0
 int attr contentDescription 0x0
@@ -414,6 +419,7 @@ int color dark_orange 0x0
 int color dark_purple 0x0
 int color dark_red 0x0
 int color dark_teal 0x0
+int color dashboardColor 0x0
 int color dim_foreground_disabled_material_dark 0x0
 int color dim_foreground_disabled_material_light 0x0
 int color dim_foreground_material_dark 0x0
@@ -1474,6 +1480,7 @@ int string connection_owner_password_default 0x0
 int string continuous_servo_description 0x0
 int string controlHubDisplayName 0x0
 int string controlHubFirmwareUpdateMessage 0x0
+int string controlHubNotAbleToCommunicateWithInternalHub 0x0
 int string control_hub_module_name 0x0
 int string control_hub_usb_device_name 0x0
 int string controllerPortConnectionInfoFormat 0x0
@@ -1562,6 +1569,7 @@ int string log_label 0x0
 int string lynxAnalogInputControllerDisplayName 0x0
 int string lynxDcMotorControllerDisplayName 0x0
 int string lynxDigitalChannelControllerDisplayName 0x0
+int string lynxFirmwareFileEmpty 0x0
 int string lynxFirmwareUpdateAlreadyInProgress 0x0
 int string lynxFirmwareUpdateReadme 0x0
 int string lynxI2cDeviceSynchDisplayName 0x0
@@ -1957,6 +1965,7 @@ int string usb_vid_name_qualcomm 0x0
 int string userSensorTypeBusDefault 0x0
 int string view_logs_activity 0x0
 int string warning2_4GhzUnnecessaryUsage 0x0
+int string warning2_4GhzUnnecessaryUsageWiFiDirectAuto 0x0
 int string warningMismatchedAppVersions 0x0
 int string warningProblemCommunicatingWithUSBDevice 0x0
 int string warningTtsFailedToInitialize 0x0

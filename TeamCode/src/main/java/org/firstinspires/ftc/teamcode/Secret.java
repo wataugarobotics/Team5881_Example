@@ -1,5 +1,0 @@
-package org.firstinspires.ftc.teamcode;
-
-public interface Secret {
-    public final String vKey = "AY1Oflr/////AAABmR2NEakqu0DvpBWy3mErW7dQmcgngxpXjG0wFKYU5vc0H/tWx7d+OnWDZka7D2opM/IviyM11uaHOwrWNz8n3eVWXmcOYDavmJp9cq83mfhGoZL16JAdQa4maIIPBlhefEU5ivKr/kwrCcZK/isHlG7lX6AMEBeGZClH8f8aurbu6UoEA/eSOvLyNHkIRPiV5rD6g0BtHQfNajrM8rqmH1tX0E6Tlvc553afPz0TNCuzyGHGMUult46gzEGXzNLsGa+NAOPXhfcBqSRfHvULAmTzkteD6f9S2BSBdvvL+IjlcOzuQumjSfA0HOS+bexCKUPPj9AUWZKZ14I5X58ubeo9WOMBQtKsWQsJ3mMV3ucm";
-}
