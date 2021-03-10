@@ -118,15 +118,20 @@ attr collapseContentDescription
 attr collapseIcon
 attr color
 attr colorAccent
+attr colorAlmostDark
 attr colorBackgroundFloating
 attr colorButtonNormal
 attr colorControlActivated
 attr colorControlHighlight
 attr colorControlNormal
 attr colorError
+attr colorMedium
+attr colorMediumLight
+attr colorMediumMedium
 attr colorPrimary
 attr colorPrimaryDark
 attr colorSwitchThumbNormal
+attr colorVeryVeryDark
 attr colors
 attr commitIcon
 attr contentDescription
@@ -415,6 +420,7 @@ color dark_orange
 color dark_purple
 color dark_red
 color dark_teal
+color dashboardColor
 color dim_foreground_disabled_material_dark
 color dim_foreground_disabled_material_light
 color dim_foreground_material_dark
@@ -1475,6 +1481,7 @@ string connection_owner_password_default
 string continuous_servo_description
 string controlHubDisplayName
 string controlHubFirmwareUpdateMessage
+string controlHubNotAbleToCommunicateWithInternalHub
 string control_hub_module_name
 string control_hub_usb_device_name
 string controllerPortConnectionInfoFormat
@@ -1563,6 +1570,7 @@ string log_label
 string lynxAnalogInputControllerDisplayName
 string lynxDcMotorControllerDisplayName
 string lynxDigitalChannelControllerDisplayName
+string lynxFirmwareFileEmpty
 string lynxFirmwareUpdateAlreadyInProgress
 string lynxFirmwareUpdateReadme
 string lynxI2cDeviceSynchDisplayName
@@ -1958,6 +1966,7 @@ string usb_vid_name_qualcomm
 string userSensorTypeBusDefault
 string view_logs_activity
 string warning2_4GhzUnnecessaryUsage
+string warning2_4GhzUnnecessaryUsageWiFiDirectAuto
 string warningMismatchedAppVersions
 string warningProblemCommunicatingWithUSBDevice
 string warningTtsFailedToInitialize
