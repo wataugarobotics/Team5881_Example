@@ -1,4 +1,19 @@
+/*
+    This file is part of Team5881_Example.
 
+    Team5881_Example is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    Team5881_Example is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with Foobar.  If not, see <https://www.gnu.org/licenses/>.
+ */
 package org.firstinspires.ftc.teamcode;
 
 import android.graphics.Color;
@@ -8,6 +23,7 @@ import com.qualcomm.hardware.bosch.JustLoggingAccelerationIntegrator;
 import com.qualcomm.robotcore.eventloop.opmode.Disabled;
 import com.qualcomm.robotcore.hardware.ColorSensor;
 import com.qualcomm.robotcore.hardware.DcMotor;
+import com.qualcomm.robotcore.hardware.DcMotorSimple;
 import com.qualcomm.robotcore.hardware.DistanceSensor;
 import com.qualcomm.robotcore.hardware.HardwareMap;
 import com.qualcomm.robotcore.hardware.Servo;
@@ -100,9 +116,9 @@ public class HardwareAndMethods {
         sidewaysEncoder = hwMap.get(DcMotor.class, "sideways");
 
         // Set motor directions
-        leftFront.setDirection(DcMotor.Direction.REVERSE);
+        leftFront.setDirection(DcMotor.Direction.FORWARD);
         leftBack.setDirection(DcMotor.Direction.FORWARD);
-        rightFront.setDirection(DcMotor.Direction.FORWARD);
+        rightFront.setDirection(DcMotor.Direction.REVERSE);
         rightBack.setDirection(DcMotor.Direction.REVERSE);
 
         // Set motor modes
@@ -119,7 +135,19 @@ public class HardwareAndMethods {
         imu.initialize(parameters);
     }
 
-
+    public void spinOneWheel(int wheel){
+        if(wheel==0) //left
+            leftFront.setPower(1);
+        else if(wheel==1){ //right
+            leftBack.setPower(1);
+        }
+        else if(wheel==2){//up
+            rightFront.setPower(1);
+        }
+        else if(wheel==3){ //down
+            rightBack.setPower(1);
+        }
+    }
     public void mecanum(float x, float y, float r){
         double leftFrontPower = Range.clip(y + x + r, -1.0, 1.0) / speedMod;
         double leftBackPower = Range.clip(y - x + r, -1.0, 1.0) / speedMod;
